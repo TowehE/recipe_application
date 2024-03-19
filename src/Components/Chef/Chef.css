@@ -1,0 +1,368 @@
+
+
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+form{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+}
+
+
+.errorText{
+  color: red;
+  font-size: 10px;
+}
+
+.SignUpContentDownWrap1{
+  width: 30%;
+  height: 90%;
+  background: #fff;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border-radius: 7px;
+  padding: 0 20px;
+  margin-left: 400px;
+  margin-top: 40px;
+  box-shadow: -1px 7px 20px 7px rgba(0,0,0,0.19);
+-webkit-box-shadow: -1px 7px 20px 7px rgba(0,0,0,0.19);
+-moz-box-shadow: -1px 7px 20px 7px rgba(0,0,0,0.19);
+  /* padding-top: 17px; */
+  /* padding-bottom: 20px; */
+  /* border: 2px solid #3F51B5; */
+  /* background-color: aqua; */
+}
+
+.SignUpContentDownInitials{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* background-color: red; */
+  /* color: orange; */
+  font-size: larger;
+  font-weight: 700;
+  
+}
+.SignUpContentDownInitials span{
+  font-weight: 500;
+  font-size: 25px;
+  color: orange;
+  margin-top: 5px;
+}
+
+.SignUpContentDownForm{
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.SignUpContentDownFormNames{
+  width: 100%;
+  height: 18%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SignUpContentDownFormFName{
+  width: 100%;
+  height: 100%;
+}
+
+.SignUpContentDownFormFNameLabels{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+
+.SignUpContentDownFormFNameInputs{
+  width: 100%;
+  height: 50%;
+}
+.SignUpContentDownFormFNameInputs input{
+  width: 100%;
+  height: 100%;
+  padding-left: 7px;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+
+.SignUpContentDownFormFNameInputs{
+  width: 100%;
+  height: 50%;
+}
+
+.SignUpContentDownFormLName{
+  width: 48%;
+  height: 100%;
+}
+
+.SignUpContentDownFormLNameLabels{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.SignUpContentDownFormLNameInputs{
+  width: 100%;
+  height: 50%;
+}
+.SignUpContentDownFormLNameInputs input{
+  width: 100%;
+  height: 100%;
+  padding-left: 7px;
+  border: 1px solid orange;
+  border-radius: 5px; 
+}
+
+.SignUpContentDownFormMail{
+  width: 100%;
+  height: 18%;
+}
+
+.SignUpContentDownFormMailLabels{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.SignUpContentDownFormMailInputs{
+  width: 100%;
+  height: 50%;
+}
+
+.SignUpContentDownFormMailInputs input{
+  width: 100%;
+  height: 100%;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+
+.SignUpContentDownFormPhone{
+  width: 100%;
+  height: 18%;
+}
+.SignUpContentDownFormPhoneLabels{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.SignUpContentDownFormPhoneInputs{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  border: 1px solid orange;
+  border-radius: 5px;
+}
+
+.SignUpContentDownFormPhoneFlag{
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+/* .SignUpContentDownFormPhoneFlag img{
+  width: 40%;
+  height: 50%;
+} */
+
+.SignUpContentDownFormPhoneInputs input{
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+}
+.SignUpContentDownFormPhoneInputs input{
+  outline: none;
+}
+
+.SignUpContentDownFormPwd{
+  width: 100%;
+  height: 18%;
+}
+
+.SignUpContentDownFormPwdLabels{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.SignUpContentDownFormPwdInputs{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  border: 1px solid orange;
+  border-radius: 2px;
+}
+.SignUpContentDownFormPwdInputs input{
+  width: 90%;
+  height: 100%;
+  border: none;
+  outline: none;
+}
+
+.SignUpContentDownFormPwdEyes{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* .SignUpContentDownFormPwdEyes .AiOutlineEye{
+  width: 80%;
+  height: 80%;
+  cursor: pointer;
+} */
+/* .SignUpContentDownFormPwdEyes .AiOutlineEyeInvisible{
+  width: 80%;
+  height: 80%;
+  cursor: pointer;
+} */
+
+.SignUpContentDownFormCPwd{
+  width: 100%;
+  height: 18%;
+}
+
+.SignUpContentDownFormCPwdlabels{
+  display: flex;
+  width: 100%;
+  height: 50%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.SignUpContentDownFormcPwdInputs{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  border: 1px solid orange;
+  border-radius: 2px;
+}
+.SignUpContentDownFormcPwdInputs input{
+  width: 90%;
+  height: 100%;
+  outline: none;
+  border: none;
+}
+
+.SignUpContentDownFormCPwdEyes{
+  width: 10%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.SignUpContentDownFormCPwdEyes .AiOutlineEyeInvisible{
+  width: 80%;
+  height: 80%;
+  cursor: pointer;
+}
+.SignUpContentDownFormCPwdEyes .AiOutlineEye{
+  width: 80%;
+  height: 80%;
+  cursor: pointer;
+}
+
+input{
+  padding-left: 10px;
+}
+
+.SignUpContentDownBtn{
+  width: 100%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.SignUpContentDownBtn button{
+  width: 100%;
+  height: 80%;
+  cursor: pointer;
+  background: orange;
+  border-radius: 5px;
+  border: none;
+  color: #fff;
+}
+.SignUpContentDownBtn button:disabled{
+  background: #8593d7;
+  cursor: not-allowed;
+}
+
+.Validation_Process {
+  width:300px;
+  height: 350px;
+  position: fixed;
+  right: 7%;
+  bottom: 10%;
+}
+
+.Validation_Head {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  /* justify-content: center; */
+  font-weight: bold;
+  color: #000000cc;
+}
+
+.Validation_Body {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  padding-left: 12.5%;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.Validation_Body span{
+  font-size: 17px;
+  font-weight: 500;
+  font-family: monospace;
+  border-radius: 3px;
+  /* color: red; */
+}
+
+.criteria-error {
+  color: red;
+}
+
+.criteria-success {
+  color: green;
+}

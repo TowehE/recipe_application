@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.recipebody{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.uprecipe{
+    width: 100%;
+    height: 15%;
+    background-color: rgb(229, 185, 102);
+    /* display: flex; */
+    display: flex;
+    box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.4);
+-webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.4);
+-moz-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.4);
+    position: sticky;
+    top: 0;
+
+}
+.uprecipepix{
+    width: 30%;
+    height: 100%;
+    /* background-color: beige; */
+}
+.recipebodyinput{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  /* background-color: blue; */
+}
+.recipebodyinputin{
+  width: 80%;
+  height: 50%;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px;
+  gap: 10px;
+}
+.recipebodyinputin input{
+  width: 90%;
+  height: 100%;
+  border: none;
+  outline: none;
+  font-size:large;
+}
+.recipebodyinput button{
+  width: 100px;
+  height: 45px;
+  background-color: rgb(228, 156, 23);
+  font-size: large;
+  color: white;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+.downrecipe{
+  width: 100%;
+  height: 20%;
+  background-color: aqua;
+}
+.recieveres{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./public/rice.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.recievercard{
+  width: 25%;
+  min-height: 20%;
+  object-fit: contain;
+  box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.4);
+-webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.4);
+-moz-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.4);
+border-radius: 5px;
+  /* background-color: rgb(233, 197, 128); */
+}
+.recievercard img{
+  width: 100%;
+  height: 70%;
+  border-radius: 5px;
+  
+}
+

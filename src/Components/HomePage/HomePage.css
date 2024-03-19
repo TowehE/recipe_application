@@ -1,0 +1,307 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.homepagebody{
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+}
+.homepageheader{
+    width: 100%;
+    height: 15%;
+    background-color: white;
+    box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.4);
+-webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.4);
+-moz-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.4);
+    position: sticky;
+    top: 0;
+    display: flex;
+}
+.leftlogo{
+    width: 25%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 40px;
+    padding-top: 20px;
+    gap: 4px;
+}
+.leftlogo img{
+    width: 70px;
+    height: 70px;
+}
+.leftlogo span{
+    font-size: 25px;
+    font-weight: 1000;
+}
+.middlehead{
+    width: 50%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    /* gap: 30px; */
+    justify-content: center;
+}
+.middlehead ul{
+    width: 76%;
+    height: 100%;
+    /* background-color: white ; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 12px;
+    gap: 15px;
+    padding-top: 20px;
+}
+.middlehead ul li{
+    text-transform: uppercase;
+    list-style: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 620;
+    font-size: 13px;
+    line-height: 24px;
+    cursor: pointer;
+    color: black;
+    transition: all 350ms ease;
+}
+.middlehead ul li:hover{
+    color: blue;
+}
+.righthead{
+    width: 25%;
+    height: 100%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: all 350ms ease; */
+    gap: 20px;
+}
+.righthead button:hover{
+    color: blue;
+}
+.righthead button{
+    width: 90px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: orange;
+    color: white;
+    border: solid white 1px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.bodypizza{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.bodypizza img{
+    width: 80%;
+    height: 80%;
+    border-radius: 10px;
+   
+}
+
+.recipes{
+    width: 100%;
+    height: 10%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: first baseline;
+}
+.recipes h1{
+    font-size: 27px;
+    font-weight: 700;
+}
+.fourpix{
+    width: 100%;
+    height: 40%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.fourpix1{
+    width: 20%;
+    height: 90%;
+    /* background-color: blue; */
+}
+.fourpix1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: all 900ms ease-in-out;
+    cursor: pointer;
+}
+.fourpix1:hover{
+    transform: scale(1.09);
+}
+.fourpix1text{
+    position: absolute;
+    top: 45%;
+    color: white;
+    padding-left: 100px;
+    
+}
+.fourpix2 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: all 900ms ease-in-out;
+    cursor: pointer;
+
+}
+.fourpix2:hover{
+    transform: scale(1.09);
+
+}
+.fourpix2text{
+    position: absolute;
+    top: 45%;
+    color: white;
+    padding-left: 100px;
+    
+}
+.fourpix3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    /* background-color: brown; */
+    transform: scale(1);
+    transition: all 900ms ease-in-out;
+    cursor: pointer;
+
+}
+.fourpix3:hover{
+    transform: scale(1.09);
+}
+.fourpix3text{
+    position: absolute;
+    top: 45%;
+    color: white;
+    padding-left: 100px;
+    
+}
+.fourpix4 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    transform: scale(1);
+    transition: all 900ms ease-in-out;
+    cursor: pointer;
+}
+.fourpix4:hover{
+    transform: scale(1.09);
+}
+.fourpix4text{
+    position: absolute;
+    top: 45%;
+    color: white;
+    padding-left: 100px;
+    
+}
+.fourpix2{
+    width: 20%;
+    height: 90%;
+    background-color: white;
+}
+.fourpix3{
+    width: 20%;
+    height: 90%;
+    /* background-color: green; */
+}
+.fourpix4{
+    width: 20%;
+    height: 90%;
+    /* background-color: black; */
+}
+/* .fourpix img{
+    width: 60%;
+    height: 90%;
+    
+} */
+.footer{
+    width: 100%;
+    height: 40%;
+    background-color: rgb(230, 230, 220);
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.leftsidetop{
+    width: 100%;
+    height: 65%;
+    /* background-color: black; */
+    display: flex;
+}
+.leftsidetopimage{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.leftsidetopimage img{
+    width: 100px;
+
+}
+.leftsidetopimage span{
+    font-weight: 700;
+    font-size: large;
+
+}
+.leftsidespace{
+    width: 35%;
+    height: 100%;
+    /* background-color: brown; */
+}
+.leftsidewrite{
+    width: 35%;
+    height: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    font-weight: 700;
+    font-size: large;
+    padding-top: 30px;
+}
+.downtown{
+    width: 100%;
+    height: 20%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.downdown{
+    width: 100%;
+    height: 15%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+}
+
+
+
+
